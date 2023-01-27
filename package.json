@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AutomationPanda/visual-testing-revolution-playwright#readme",
   "devDependencies": {
+    "@applitools/eyes-playwright": "^1.13.2",
     "@playwright/test": "^1.30.0"
   }
 }
