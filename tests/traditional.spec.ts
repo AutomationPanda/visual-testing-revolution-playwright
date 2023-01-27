@@ -1,3 +1,4 @@
+// This test case spec runs a login test against the ACME bank demo app using traditional assertions.
 import { test, expect } from '@playwright/test';
 
 // This "describe" method contains related test cases with per-test setup and cleanup.
