@@ -1,11 +1,12 @@
 {
   "name": "visual-testing-revolution-playwright",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is the companion project for [Pandy Knight's](https://twitter.com/AutomationPanda) talk, *The Visual Testing Revolution*. It is a small but complete test automation project written in TypeScript. It contains a traditional functional test using [Playwright](https://playwright.dev/) for a demo web app, as well as a visual test for the same app using [Applitools Visual AI](https://applitools.com/applitools-ai-and-deep-learning/).",
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test --project=chromium",
-    "test:ui": "npx playwright test --ui"
+    "test:ui": "npx playwright test --ui",
+    "codegen": "npx playwright codegen"
   },
   "repository": {
     "type": "git",
